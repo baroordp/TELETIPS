@@ -7,16 +7,16 @@ import os
 import calendar
 
 app = Client(
-    name="botstatus_teletips",
-    api_id=int(os.environ["API_ID"]),
-    api_hash=os.environ["API_HASH"],
-    session_string=os.environ["SESSION_STRING"]
+    name="Botstatus",
+    api_id=int(os.environ["API_ID", '7041911']),
+    api_hash=os.environ["API_HASH", 'abab2561c71e3004a55d4ff9763d5383'],
+    session_string=os.environ["SESSION_STRING", 'BQBrc3cAhbN3uubg592I1giEU35EVLxi8i2hz0F396XVDQwzPK9aCtceiUSN2HTgjW4ozqIrmgYYtyuF9apklMfw9dZROBGPDvU6y-b_hhyZhWxPO9Yk1j9VZ-iAq9zV31NE8j5S71BpqcLYng4WkWje8LVgD_FFJFZv59LX8davEJelqt4hxElk7eIbrh4Q5yGOMtykYtMcBBTugmK1FE4oKN8xXTdPETO-dDXkyIETpJa5Gnwq7ShYsXXf18-uPtDPlULTKeFhu8G9uGvfr3AdZ8bVLwWmbS4xMPtgQ_sXbxU8IfRXEuvv8DS9iIKLV--B1hgv1b1q4CO1NGt2XJeITiHMNAAAAAA7T8-AAA']
 )
-TIME_ZONE = os.environ["TIME_ZONE"]
-BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split(' ')]
-CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID"])
-MESSAGE_ID = int(os.environ["MESSAGE_ID"])
-BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS").split(' ')]
+TIME_ZONE = os.environ["TIME_ZONE", 'Asia/Kolkata']
+BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split('MOVIES_ADDA_1_bot MOVIES_ADDA_2_bot km17kannadamovies_bot MOVIES_ADDA_3_bot')]
+CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID", '-1002226519917'])
+MESSAGE_ID = int(os.environ["MESSAGE_ID", '993'])
+BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS").split('995086208')]
 
 
 
