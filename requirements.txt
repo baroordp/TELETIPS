@@ -1,4 +1,4 @@
-pyrogram
+git+https://github.com/KurimuzonAkuma/pyrogram.git
 tgcrypto
 pytz==2021.3
-
+pyrotgfork
